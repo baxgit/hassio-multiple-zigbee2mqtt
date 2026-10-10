@@ -29,11 +29,6 @@ It **only changes the add-on name**. 🚫 No behavior is modified. ✅ Zigbee2MQ
 
   * Zigbee2MQTT 1
   * Zigbee2MQTT 2
-  * Zigbee2MQTT 3
-  * Zigbee2MQTT 4
-  * Zigbee2MQTT 5
-  * Zigbee2MQTT Hub
-  * Zigbee2MQTT Dev
 
 ## Installation
 
