@@ -44,7 +44,7 @@
     }
   ],
   "ports": {
-    "8485/tcp": 8485,
+    "8485/tcp": null,
     "8099/tcp": null
   },
   "ports_description": {
@@ -52,7 +52,7 @@
     "8099/tcp": "Frontend tcp-listen port"
   },
   "options": {
-    "data_path": "/config/zigbee2mqtt",
+    "data_path": "/config/zigbee2mqtt_2",
     "socat": {
       "enabled": false,
       "master": "pty,raw,echo=0,link=/tmp/ttyZ2M,mode=777",
@@ -60,7 +60,7 @@
       "options": "-d -d",
       "log": false
     },
-    "mqtt": {},
+    "mqtt": {"base_topic": "zigbee2mqtt_2"},
     "serial": {}
   },
   "schema": {
